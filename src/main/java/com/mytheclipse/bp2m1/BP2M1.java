@@ -8,10 +8,9 @@ package com.mytheclipse.bp2m1;
  *
  * @author PREDATOR
  */
-public class BP1M1 {
+public class BP2M1 {
 
     public static void main(String[] args) {
-        FMenus a = new FMenus();
-        a.setVisible(true);
+        new Login().setVisible(true);
     }
 }

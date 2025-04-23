@@ -107,7 +107,10 @@ public class KonversiUang extends javax.swing.JFrame {
 
     private void konversiButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_konversiButtonMouseClicked
         // TODO add your handling code here:
-        konversi();
+        int option = javax.swing.JOptionPane.showConfirmDialog(this, "Apakah Anda yakin ingin melakukan konversi?", "Konfirmasi", javax.swing.JOptionPane.YES_NO_OPTION);
+        if (option == javax.swing.JOptionPane.YES_OPTION) {
+            konversi();
+        }
     }//GEN-LAST:event_konversiButtonMouseClicked
 
     /**

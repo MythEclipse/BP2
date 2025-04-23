@@ -118,7 +118,10 @@ public class Kalkulator extends javax.swing.JFrame {
 
     private void hitungButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_hitungButtonMouseClicked
         // TODO add your handling code here:
-        hitung();
+        int result = javax.swing.JOptionPane.showConfirmDialog(this, "Apakah Anda yakin ingin menghitung?", "Konfirmasi", javax.swing.JOptionPane.YES_NO_OPTION);
+        if (result == javax.swing.JOptionPane.YES_OPTION) {
+            hitung();
+        }
     }//GEN-LAST:event_hitungButtonMouseClicked
 
     /**

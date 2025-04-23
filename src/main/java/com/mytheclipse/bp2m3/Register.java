@@ -76,11 +76,10 @@ public class Register extends javax.swing.JFrame {
         SHOPING = new javax.swing.JCheckBox();
         jScrollPane1 = new javax.swing.JScrollPane();
         IAlamat = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
+        BRegisterButton = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         jLabel7 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -127,10 +126,10 @@ public class Register extends javax.swing.JFrame {
         IAlamat.setRows(5);
         jScrollPane1.setViewportView(IAlamat);
 
-        jButton1.setText("REGISTER");
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+        BRegisterButton.setText("REGISTER");
+        BRegisterButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton1MouseClicked(evt);
+                BRegisterButtonMouseClicked(evt);
             }
         });
 
@@ -139,13 +138,6 @@ public class Register extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea2);
 
         jLabel7.setText("ALAMAT");
-
-        jButton2.setText("HAPUS");
-        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jButton2MouseClicked(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -161,10 +153,7 @@ public class Register extends javax.swing.JFrame {
                     .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 59, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton2))
+                    .addComponent(BRegisterButton)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(Inama)
                         .addGroup(layout.createSequentialGroup()
@@ -225,9 +214,7 @@ public class Register extends javax.swing.JFrame {
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7))
                 .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
+                .addComponent(BRegisterButton)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(21, Short.MAX_VALUE))
@@ -276,6 +263,7 @@ public class Register extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton BRegisterButton;
     private javax.swing.JTextArea IAlamat;
     private javax.swing.JComboBox<String> IProdi;
     private javax.swing.JTextField Inama;
@@ -283,8 +271,6 @@ public class Register extends javax.swing.JFrame {
     private javax.swing.JCheckBox NONTON;
     private javax.swing.JCheckBox OLAHRAGA;
     private javax.swing.JCheckBox SHOPING;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -311,11 +297,10 @@ public class Register extends javax.swing.JFrame {
         // TODO: Add your handling code here if needed
     }
 
-    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {
+    private void BRegisterButtonMouseClicked(java.awt.event.MouseEvent evt) {
         // TODO: Add your handling code here if needed
+        simpan();
     }
 
-    private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {
-        // TODO: Add your handling code here if needed
-    }
+   
 }

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package com.mytheclipse.bp2m2;
+package com.mytheclipse.bp2m3;
 
 import com.mytheclipse.bp2m1.*;
 

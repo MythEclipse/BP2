@@ -21,9 +21,9 @@ public class KonversiUang extends javax.swing.JFrame {
         double uang = Double.parseDouble(input);
         String hasil = "";
         if (jComboBox1.getSelectedItem().equals("Dolar AS")) {
-            hasil = "Hasil Konversi: " + (uang / 15000) + " Dolar AS";
+            hasil = "Hasil Konversi: " + (uang / 16876) + " Dolar AS";
         } else if (jComboBox1.getSelectedItem().equals("Euro")) {
-            hasil = "Hasil Konversi: " + (uang / 17000) + " Euro";
+            hasil = "Hasil Konversi: " + (uang / 19402) + " Euro";
         }
         hasilKonversi.setText("Hasil Konversi : \n"+hasil + "\nTerima kasih telah menggunakan aplikasi konversi uang.");
     }

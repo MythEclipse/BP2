@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>22</maven.compiler.release>
-        <exec.mainClass>com.mytheclipse.bp2m2.BP2M2</exec.mainClass>
+        <exec.mainClass>com.mytheclipse.bp2m3.BP2M3</exec.mainClass>
     </properties>
     <name>BP2</name>
 </project>

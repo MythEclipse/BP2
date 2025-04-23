@@ -12,6 +12,6 @@ package com.mytheclipse.bp2m3;
 public class BP2M3 {
 
     public static void main(String[] args) {
-       new Login().setVisible(true);
+       new Register().setVisible(true);
     }
 }

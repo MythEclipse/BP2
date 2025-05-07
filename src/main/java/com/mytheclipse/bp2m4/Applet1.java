@@ -10,9 +10,20 @@ import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics;
 
-
 /**
  *
  * @author PREDATOR
  */
-public class Applet1 extends Applet { public void paint(Graphics g){ Font f = new Font("sansSerif", Font.BOLD, 20); g.setFont(f); g.setColor(Color.BLUE); int xPusat=this.getSize().width/2; int yPusat=this.getSize().height/2; String s="Selamat Belajar Java Applet"; FontMetrics fm= this.getFontMetrics(f); int posisiX = xPusat-(fm.stringWidth(s)/2); g.drawString("Selamat Belajar Java Applet",posisiX, yPusat); } }
+public class Applet1 extends Applet {
+    public void paint(Graphics g) {
+        Font f = new Font("sansSerif", Font.BOLD, 20);
+        g.setFont(f);
+        g.setColor(Color.BLUE);
+        int xPusat = this.getSize().width / 2;
+        int yPusat = this.getSize().height / 2;
+        String s = "Selamat Belajar Java Applet";
+        FontMetrics fm = this.getFontMetrics(f);
+        int posisiX = xPusat - (fm.stringWidth(s) / 2);
+        g.drawString("Selamat Belajar Java Applet", posisiX, yPusat);
+    }
+}

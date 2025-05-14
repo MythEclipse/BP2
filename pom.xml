@@ -11,4 +11,12 @@
         <exec.mainClass>com.mytheclipse.bp2m3.BP2M3</exec.mainClass>
     </properties>
     <name>BP2</name>
+     <dependencies>
+        <!-- MySQL Connector Dependency -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+    </dependencies>
 </project>
